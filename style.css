@@ -1,7 +1,7 @@
 body{
     font-family: 'IBM Plex Sans', sans-serif;
 }
-#diff-color{
+.diff-color{
     color: orange;
 }
 .flexible-container{
@@ -49,4 +49,33 @@ body{
 }
 footer{
     text-align: center;
+}
+.partitions{
+        align-items: center;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        border-radius: 15px;
+        border: 0;
+        word-wrap: break-word;
+        box-shadow: 0 0 20px gray;
+        background-image: linear-gradient(grey);
+        padding-left: 15px;
+}
+.partitions img{
+    width: 40%;
+    align-items: left;
+}
+.third-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+}
+.fourth-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
 }
