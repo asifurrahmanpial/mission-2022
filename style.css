@@ -1,14 +1,24 @@
+/* style for the whole website */
 body{
     font-family: 'IBM Plex Sans', sans-serif;
 }
+/* colored line beside heading */
+#orange-border{
+    border-left: 3px solid orange;
+    padding-left: 5px;
+    font-size: 3rem;
+}
+/* orange highlights */
 .diff-color{
     color: orange;
 }
+/* flex container */
 .flexible-container{
     display: flex;   
     padding: 2%;
     padding-bottom: 5%;
 }
+/* half width items */
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -17,13 +27,7 @@ body{
 .half-width img{
     width: 100%;
 }
-#orange-border{
-    border-left: 3px solid orange;
-    padding-left: 5px;
-}
-/* .link-button{
-    text-decoration: none;
-} */
+/* style for buttons */
 .link-button{
     text-decoration: none;
     background-color: orangered;
@@ -31,7 +35,6 @@ body{
     background-image: linear-gradient(rgb(236, 200, 133), rgb(228, 33, 33));
     color: white;
     font-weight: 700;
-    position: relative;
     display: inline-block;
     margin: 1em;
     padding: 1em 2em;
@@ -41,41 +44,120 @@ body{
     cursor: pointer;
     font-size: 14px;
 }
+/* button hover effect */
 .link-button:hover{
     opacity: .7;
 }
+/* style for headings */
 .head-title{
     text-align: center;
+    font-weight: bolder;
 }
-footer{
-    text-align: center;
-}
+/* style for second section containers */
 .partitions{
-        align-items: center;
-        text-align: left;
-        margin-left: auto;
-        margin-right: auto;
-        width: 25%;
-        border-radius: 15px;
-        border: 0;
-        word-wrap: break-word;
-        box-shadow: 0 0 20px gray;
-        background-image: linear-gradient(grey);
-        padding-left: 15px;
+    align-items: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 15px;
+    border: 0;
+    word-wrap: break-word;
+    box-shadow: 0 0 20px gray;
+    background-image: linear-gradient(grey);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* paritions hove effect */
+.partitions:hover{
+    font-size: 120%;
 }
 .partitions img{
-    width: 40%;
-    align-items: left;
+width: 40%;
+align-items: left;
 }
+/* partition one style */
+#pone{
+    background-color: beige;
+}
+/* partition two style */
+#ptwo{
+    background-color: rgb(233, 200, 205);
+}
+/* partition three style */
+#pthree{
+    background-color: rgb(192, 192, 228);
+}
+/* style for third section */
 .third-section{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 20%;
 }
+/* style for fourth section */
 .fourth-section{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 20%;
+}
+/* style for fifth section */
+.fifth-section img{
+    background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 30%, 20%, 20%;
+    background-position: top left, right 600px, bottom left;
+}
+/* style for sixth section */
+.sixth-section{
+    text-align: center;
+    background-color: rgb(212, 202, 175);
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+/* style for spacing between icons */
+#social-icons{
+    word-spacing: 30px;
+}
+/* style for icons */
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+/* style for facebook icon */
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+/* style for twitter icon */
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+/* style for telegram icon */
+.fa-telegram{
+    background: #229ED9;
+    color: white;
+} 
+/* style for instagram icon */
+.fa-instagram{
+    background: #8a3ab9;
+    color: white;
+}
+/* hover effect for icons */
+.fa:hover{
+    opacity: .7;
+}
+/* style for footer */
+footer{
+    text-align: center;
+    background-color: rgb(18, 42, 63);
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 2%;
 }
